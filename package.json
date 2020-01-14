@@ -1,0 +1,29 @@
+{
+  "name": "big-numbers",
+  "version": "1.0.0",
+  "description": "add methods to solve the numbers operation when out of the limitation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prepublish": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mistyyyy/big-numbers.git"
+  },
+  "keywords": [
+    "bit-numbers"
+  ],
+  "author": "harley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mistyyyy/big-numbers/issues"
+  },
+  "homepage": "https://github.com/Mistyyyy/big-numbers#readme",
+  "devDependencies": {
+    "terser-webpack-plugin": "^2.3.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
