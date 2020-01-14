@@ -1,4 +1,4 @@
-function add() {
+function add(num1, num2) {
   if (num1.length === 0) return num2;
   if (num2.length === 0) return num1;
   let len1 = num1.length - 1, len2 = num2.length - 1;
@@ -40,7 +40,7 @@ function multiply(num1, num2) {
   return str;
 };
 
-export {
+export default {
   add,
   multiply
 }
