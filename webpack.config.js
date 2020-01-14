@@ -8,7 +8,7 @@ module.exports = {
     'lnam': './index.js',
     'lnam.min': './index.js',
   },
-  mode: 'none',
+  mode: 'production',
   output: {
     path: path.resolve(__dirname,'dist'),
     filename: '[name].js',
