@@ -1,5 +1,5 @@
 {
-  "name": "big-num",
+  "name": "big-integers",
   "version": "1.0.0",
   "description": "add methods to solve the numbers operation when out of the limitation",
   "main": "index.js",
