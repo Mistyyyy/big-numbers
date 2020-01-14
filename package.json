@@ -1,6 +1,6 @@
 {
   "name": "lnam",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "add methods to solve the numbers operation when out of the limitation",
   "main": "index.js",
   "scripts": {
