@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Mistyyyy/big-numbers#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
     "terser-webpack-plugin": "^2.3.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
