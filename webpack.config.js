@@ -4,14 +4,14 @@ const TerserPlugin = require('terser-webpack-plugin');
 module.exports = {
   context: path.resolve(__dirname, 'src'),
   entry: {
-    'big-integers': './index.js',
-    'big-integers.min': './index.js',
+    'lnam': './index.js',
+    'lnam.min': './index.js',
   },
   mode: 'none',
   output: {
     path: path.resolve(__dirname,'dist'),
     filename: '[name].js',
-    library: 'big-integers',
+    library: 'lnam',
     libraryTarget: 'umd',
     libraryExport: 'default',
   },
