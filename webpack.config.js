@@ -7,7 +7,7 @@ module.exports = {
     'big-numbers': './index.js',
     'big-numbers.min': './index.js',
   },
-  mode: 'production',
+  mode: 'none',
   output: {
     path: path.resolve(__dirname,'dist'),
     filename: '[name].js',
